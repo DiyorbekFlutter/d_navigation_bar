@@ -1,39 +1,52 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
+# DNavigationBar
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages).
--->
+Bu Flutter package ilovalar uchun pastki navigatsiya panelini (BottomNavigationBar) o'z ichiga oladi.
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+![DNavigationBar haqidagi gif](https://github.com/DiyorbekFlutter/d_navigation_bar/blob/master/assets/DNavigationBarGif.gif?raw=true)
 
-## Features
+## O'rnatish
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+Paketni o'rnatish uchun `pubspec.yaml` faylga quyidagi qatorni qo'shing:
 
-## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
-
-## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
-```dart
-const like = 'sample';
+```yaml
+dependencies:
+  d_navigation_bar: ^0.0.1
 ```
 
-## Additional information
+va `flutter pub get` buyrug'ini ishga tushiring.
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+yoki terminalga quyidagi kodni kiriting:
+```shell
+flutter pub add d_navigation_bar
+```
+
+## Foydalanish
+
+```dart
+import 'package:d_navigation_bar/d_navigation_bar.dart';
+```
+## Features
+
+- **Customizable Appearance:** DNavigation Bar allows you to customize the appearance of the bottom navigation bar, including colors, icons, and text.
+- **Dynamic Item Changes:** Easily change the items in the navigation bar dynamically based on your app's logic.
+- **Tap Event Handling:** Handle tap events on navigation bar items to navigate between different screens in your app.
+- **Responsive Design:** The navigation bar is designed to be responsive and work seamlessly across different screen sizes.
+- **Easy Integration:** Simple integration with your Flutter app using the provided package.
+
+## Author
+
+- Diyorbek [@diyorbek](https://github.com/DiyorbekFlutter) - author
+
+
+
+##  Diyorbek Qurbonov | Flutter Developer
+![](https://readme-typing-svg.herokuapp.com?font=Montserrat&color=coral&lines=I'm+a+Robotatexnik;I'm+a+Dart+Developer;I'm+a+Flutter+Developer;)
+
+
+### Follow Me
+
+[![Telegram](https://img.shields.io/badge/-Telegram-082032?style=for-the-badge&logo=Telegram&logoColor=#26A5E4)](https://t.me/diyorbekqurbonov)
+[![Youtube](https://img.shields.io/badge/-YouTube-082032?style=for-the-badge&logo=Youtube&logoColor=FF0000)](https://www.youtube.com/@diyorbekofficial_n1)
+[![GitHub](https://img.shields.io/badge/-GitHub-082032?style=for-the-badge&logo=GitHub&logoColor=FFFFFF)](https://github.com/DiyorbekFlutter)
