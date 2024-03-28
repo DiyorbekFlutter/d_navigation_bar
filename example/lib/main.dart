@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application/d_navigation_bar.dart';
+import 'package:d_navigation_bar/d_navigation_bar.dart';
 
 void main(){
   runApp(const MyApp());
@@ -47,7 +47,7 @@ class _ExamplePageState extends State<ExamplePage> {
         items: [
           DNavigationBarItem(
             label: 'Asosiy',
-            icon: const Icon(Icons.home_filled),
+            icon: const Icon(Icons.home),
             activeIcon: const Icon(Icons.home, color: Colors.blue),
           ),
           DNavigationBarItem(
