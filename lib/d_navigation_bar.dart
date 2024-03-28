@@ -1,3 +1,4 @@
+library d_navigation_bar;
 import 'package:flutter/material.dart';
 
 /// default controller
